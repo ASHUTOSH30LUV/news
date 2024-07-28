@@ -18,6 +18,7 @@ body {
     width: 100px; 
     height: 70px; 
     background-image: url('./logo.JPG'); 
+    
     background-repeat: no-repeat;
     margin-left: 70px;
   }
@@ -34,17 +35,15 @@ body {
 }
 
 .nav-item:hover {
-  background-color: #cac3c3e8;
+  background-color: #444;
 }
 
 .search-icon {
   margin-left: auto;
-  height : 22px;
+  font-size: 2rem;
   padding: 10px 20px;
-  background-image: url('./Search-img.png'); 
-  background-size:cover;
+  color: #fff;
   cursor: pointer;
-  margin-right: 10px;;
 }
 
 
@@ -107,8 +106,8 @@ body {
 
 .dots {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-color: black;
   border-radius: 50%;
   margin-left: 5px;

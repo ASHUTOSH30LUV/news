@@ -18,6 +18,7 @@ body {
     width: 100px; 
     height: 70px; 
     background-image: url('./logo.JPG'); 
+    
     background-repeat: no-repeat;
     margin-left: 70px;
   }
@@ -39,12 +40,10 @@ body {
 
 .search-icon {
   margin-left: auto;
-  height : 22px;
+  font-size: 2rem;
   padding: 10px 20px;
-  background-image: url('./Search-img.png'); 
-  background-size:cover;
+  color: #fff;
   cursor: pointer;
-  margin-right: 10px;;
 }
 
 

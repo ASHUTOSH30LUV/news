@@ -39,7 +39,8 @@ body {
 
 .search-icon {
   margin-left: auto;
-  height : 22px;
+  width : 10px;
+  height : 15px;
   padding: 10px 20px;
   background-image: url('./Search-img.png'); 
   background-size:cover;

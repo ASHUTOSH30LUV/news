@@ -39,12 +39,11 @@ body {
 
 .search-icon {
   margin-left: auto;
-  height : 22px;
+  height : 25px;
   padding: 10px 20px;
   background-image: url('./Search-img.png'); 
   background-size:cover;
   cursor: pointer;
-  margin-right: 10px;;
 }
 
 
