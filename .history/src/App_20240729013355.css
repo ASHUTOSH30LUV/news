@@ -50,11 +50,11 @@ body {
 
 .banner {
   height: 150px; 
-  width : 92%;
+  width : 96%;
   margin-top: 20px;;
     background-image: url('./Add.JPG'); 
     background-size: cover;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 /* .banner img {
@@ -63,13 +63,12 @@ body {
 } */
 
 .content {
-  width: 92%; 
-  margin-left: 4%;
   display: flex;
   justify-content: space-between;
   padding: 20px;
   margin-top : 70px;
-  
+  width: 96%; 
+  margin-left: 2%;
 }
 
 .article {
