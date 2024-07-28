@@ -64,7 +64,7 @@ function App() {
           </div>
         </div>
         <div className="sidebar">
-          <div className="latestUpdates"><h2>Latest Updates</h2></div>
+          <h2>Latest Updates</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
           </p>

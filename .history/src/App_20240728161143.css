@@ -177,6 +177,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .subscribe input[type="email"] {

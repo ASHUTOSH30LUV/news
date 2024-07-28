@@ -174,9 +174,10 @@ body {
 }
 
 .subscribe {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
 .subscribe input[type="email"] {

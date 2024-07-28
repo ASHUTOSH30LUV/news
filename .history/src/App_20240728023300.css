@@ -1,9 +1,6 @@
-
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #000;
 }
 
 .navbar {
@@ -17,7 +14,7 @@ body {
 .logo {
     width: 200px; 
     height: 100px; 
-    background-image: url('./logo.JPG'); 
+    background-image: url('./logo.JPG'); /* Ensure the path is correct */
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 70px;
@@ -46,14 +43,20 @@ body {
   cursor: pointer;
 }
 
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
 .banner {
-  height: 150px; 
-  width : 90%;
+  height: auto; 
+  width : 100%;
   margin-top: 20px;;
     background-image: url('./Add.JPG'); 
     background-size: cover;
-    margin-left: 80px;
+    
+    margin-left: 70px;
 }
 
 /* .banner img {
@@ -65,7 +68,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin-top : 70px;
 }
 
 .article {
@@ -84,58 +86,23 @@ body {
   border-radius: 3px;
 }
 
-
-.info-box {
+.article-meta {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  border: 1px solid #ccc;
-  padding: 10px;
-  max-width: 1000px; 
-  margin: 20px auto; 
+  margin-bottom: 20px;
 }
 
-.info-box span {
-  margin-right: 10px;
-}
-
-.share-symbol{
-  display: flex;
-  align-items: center;
-}
-
-.dots {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: black;
-  border-radius: 50%;
-  margin-left: 5px;
-  cursor: pointer; 
+.article-meta span {
+  font-size: 0.9em;
+  color: gray;
 }
 
 .sidebar {
   flex: 1;
   padding-left: 20px;
-  /* background-color: #f9f9f9; */
+  background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
-}
-.latestUpdates{
-  background-color :#000;
-  color : white;
-  height : 40px;
-  width : 200px;
-  display: flex;
-  align-items : center;
-  justify-content: center;
-}
-
-.box{
-  margin-top: 20px;;
-  height : 270px;
-  width : 350px;
-  background-color :#7B7BFF;
 }
 
 .additional-content {
@@ -144,7 +111,7 @@ body {
 
 .video-placeholder {
   width: 100%;
-  height: 550px;
+  height: 400px;
   background-color: #000;
   margin-bottom: 20px;
 }
@@ -185,7 +152,6 @@ body {
   border-radius: 4px;
   margin-right: 10px;
   width: 300px;
-  flex : 1;
 }
 
 .subscribe button {
@@ -195,7 +161,6 @@ body {
   background-color: #ff0000;
   color: #fff;
   cursor: pointer;
-  flex : 0;
 }
 
 .footer-middle {
@@ -228,53 +193,26 @@ body {
   flex-direction: column; 
   align-items: center;
   padding-top: 20px;
-  
+  border-top: 1px solid #444;
 }
 
 .logo {
-  width: 150px; 
-  height: 40px; 
-  background-image: url('./logo.JPG'); 
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  background-image: url('./logo.JPG'); /* Ensure the path is correct */
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 .social-icons {
-  margin-top : 12px;
   display: flex;
   align-items: center;
   flex-direction: column; 
 }
 
-.icons a {
-  display: inline-block;
-  width: 40px; 
-  height: 40px; 
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 0 5px; 
+.social-icons span {
+  margin-right: 10px;
 }
-
-.icons .twitter {
-  background-image: url('./Twitter.JPG');
-}
-
-.icons .youtube {
-  background-image: url('./Yt.JPG');
-}
-
-.icons .linkedin {
-  background-image: url('./Linkedin.JPG');
-}
-
-.icons .facebook {
-  background-image: url('./fb.JPG');
-}
-
-.icons .instagram {
-  background-image: url('./ig.JPG');
-}
-
 
 .social-icons a {
   margin-left: 10px;

@@ -185,7 +185,6 @@ body {
   border-radius: 4px;
   margin-right: 10px;
   width: 300px;
-  flex : 1;
 }
 
 .subscribe button {
@@ -195,7 +194,6 @@ body {
   background-color: #ff0000;
   color: #fff;
   cursor: pointer;
-  flex : 0;
 }
 
 .footer-middle {
@@ -228,7 +226,7 @@ body {
   flex-direction: column; 
   align-items: center;
   padding-top: 20px;
-  
+  border-top: 1px solid #444;
 }
 
 .logo {

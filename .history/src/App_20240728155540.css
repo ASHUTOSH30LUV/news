@@ -5,7 +5,6 @@ body {
   background-color: #fff;
   color: #000;
 }
-
 .navbar {
   display: flex;
   align-items: center;
@@ -17,7 +16,7 @@ body {
 .logo {
     width: 200px; 
     height: 100px; 
-    background-image: url('./logo.JPG'); 
+    background-image: url('./logo.JPG'); /* Ensure the path is correct */
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 70px;
@@ -46,7 +45,12 @@ body {
   cursor: pointer;
 }
 
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
 .banner {
   height: 150px; 
   width : 90%;
@@ -84,15 +88,24 @@ body {
   border-radius: 3px;
 }
 
+/* .article-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
+.article-meta span {
+  font-size: 0.9em;
+  color: gray;
+} */
 .info-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border: 1px solid #ccc;
   padding: 10px;
-  max-width: 1000px; 
-  margin: 20px auto; 
+  max-width: 1000px; /* Adjust width as needed */
+  margin: 20px auto; /* Center the box */
 }
 
 .info-box span {
@@ -121,21 +134,12 @@ body {
   padding: 20px;
   border-radius: 5px;
 }
-.latestUpdates{
-  background-color :#000;
-  color : white;
-  height : 40px;
-  width : 200px;
-  display: flex;
-  align-items : center;
-  justify-content: center;
-}
 
 .box{
   margin-top: 20px;;
   height : 270px;
   width : 350px;
-  background-color :#7B7BFF;
+  background-color :#00d9ffb1;
 }
 
 .additional-content {
@@ -185,7 +189,6 @@ body {
   border-radius: 4px;
   margin-right: 10px;
   width: 300px;
-  flex : 1;
 }
 
 .subscribe button {
@@ -195,7 +198,6 @@ body {
   background-color: #ff0000;
   color: #fff;
   cursor: pointer;
-  flex : 0;
 }
 
 .footer-middle {
@@ -228,13 +230,13 @@ body {
   flex-direction: column; 
   align-items: center;
   padding-top: 20px;
-  
+  border-top: 1px solid #444;
 }
 
 .logo {
-  width: 150px; 
-  height: 40px; 
-  background-image: url('./logo.JPG'); 
+  width: 150px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  background-image: url('./logo.JPG'); /* Ensure the path is correct */
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -248,11 +250,11 @@ body {
 
 .icons a {
   display: inline-block;
-  width: 40px; 
-  height: 40px; 
+  width: 40px; /* Adjust the width as per your icon size */
+  height: 40px; /* Adjust the height as per your icon size */
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 0 5px; 
+  margin: 0 5px; /* Adjust spacing between icons as needed */
 }
 
 .icons .twitter {

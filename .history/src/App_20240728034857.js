@@ -52,40 +52,13 @@ function App() {
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus sunt quidem iure voluptate cumque delectus sed repudiandae minus? Eaque alias odit cupiditate rerum dicta laborum cum, quo necessitatibus, adipisci ipsam dolores quam, non ducimus suscipit! Maiores nesciunt recusandae vel animi ipsum repellendus, placeat officia blanditiis fuga ducimus nobis impedit hic sed tempora error laborum, alias illo? Ab sapiente praesentium iure nam voluptatem, inventore dolores exercitationem iste dolor. Atque nisi error quae totam veritatis consectetur, eos illum velit optio nostrum explicabo eius magnam dolor pariatur commodi minima facilis numquam officia? Commodi quis sint assumenda culpa corrupti similique nobis id quidem tenetur!
             </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus sunt quidem iure voluptate cumque delectus sed repudiandae minus? Eaque alias odit cupiditate rerum dicta laborum cum, quo necessitatibus, adipisci ipsam dolores quam, non ducimus suscipit! Maiores nesciunt recusandae vel animi ipsum repellendus, placeat officia blanditiis fuga ducimus nobis impedit hic sed tempora error laborum, alias illo? Ab sapiente praesentium iure nam voluptatem, inventore dolores exercitationem iste dolor. Atque nisi error quae totam veritatis consectetur, eos illum velit optio nostrum explicabo eius magnam dolor pariatur commodi minima facilis numquam officia? Commodi quis sint assumenda culpa corrupti similique nobis id quidem tenetur!
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus sunt quidem iure voluptate cumque delectus sed repudiandae minus? Eaque alias odit cupiditate rerum dicta laborum cum, quo necessitatibus, adipisci ipsam dolores quam, non ducimus suscipit! Maiores nesciunt recusandae vel animi ipsum repellendus, placeat officia blanditiis fuga ducimus nobis impedit hic sed tempora error laborum, alias illo? Ab sapiente praesentium iure nam voluptatem, inventore dolores exercitationem iste dolor. Atque nisi error quae totam veritatis consectetur, eos illum velit optio nostrum explicabo eius magnam dolor pariatur commodi minima facilis numquam officia? Commodi quis sint assumenda culpa corrupti similique nobis id quidem tenetur!
-            </p>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus sunt quidem iure voluptate cumque delectus sed repudiandae minus? Eaque alias odit cupiditate rerum dicta laborum cum, quo necessitatibus, adipisci ipsam dolores quam, non ducimus suscipit! Maiores nesciunt recusandae vel animi ipsum repellendus, placeat officia blanditiis fuga ducimus nobis impedit hic sed tempora error laborum, alias illo? Ab sapiente praesentium iure nam voluptatem, inventore dolores exercitationem iste dolor. Atque nisi error quae totam veritatis consectetur, eos illum velit optio nostrum explicabo eius magnam dolor pariatur commodi minima facilis numquam officia? Commodi quis sint assumenda culpa corrupti similique nobis id quidem tenetur!
-            </p>
           </div>
         </div>
         <div className="sidebar">
-          <div className="latestUpdates"><h2>Latest Updates</h2></div>
+          <h2>Latest Updates</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
           </p>
-          <hr></hr>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-          </p>
-          <hr></hr>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-          </p>
-          <hr></hr>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
-          </p>
-          <div className = "Boxes">
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-             <div className="box"></div>
-          </div>
         </div>
       </div>
 

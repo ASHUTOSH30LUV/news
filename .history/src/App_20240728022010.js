@@ -1,0 +1,125 @@
+import React from 'react';
+import './App.css';
+
+function App() {
+  return (
+    <div className="app">
+      <div className="navbar">
+        <div className="logo"></div>
+        <div className="nav-items">
+          <div>Posts</div>
+          <div>Sectors</div>
+          <div>Insights</div>
+          <div>Spotlight</div>
+          <div>Product</div>
+          <div>Events</div>
+          <div>Equipment</div>
+          <div>Sustainability</div>
+          <div>Digitalization</div>
+        </div>
+        <div className="search-icon"></div>
+      </div>
+
+      <div className="banner">
+        <img src="URL_TO_BANNER_IMAGE" alt="Banner" />
+      </div>
+
+      <div className="content">
+        <div className="article">
+          <div className="article-header">
+            <span className="tag">Industries</span>
+            <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
+          </div>
+          <div className="article-meta">
+            <span>By Chemical Today.</span>
+            <span>19 December 2023</span>
+          </div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+          </p>
+          <div className="additional-content">
+            <div className="video-placeholder"></div>
+            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+            </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+            </p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+            </p>
+          </div>
+        </div>
+        <div className="sidebar">
+          <h2>Latest Updates</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.
+          </p>
+        </div>
+      </div>
+
+      <div className="footer">
+        <div className="footer-top">
+          <div className="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <p>Stay updated with the latest chemical industry trends and innovations.</p>
+            <div className="subscribe">
+              <input type="email" placeholder="Email address" />
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div className="footer-middle">
+          <div className="footer-column">
+            <h4>Our Brands</h4>
+            <ul>
+              <li>Chemical Today</li>
+              <li>Chemical Today TV</li>
+              <li>Chemical Today App</li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Quick Links</h4>
+            <ul>
+              <li>Clear Your Stock</li>
+              <li>Become an Elite Member</li>
+              <li>Jobs</li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>Blog</li>
+              <li>Articles</li>
+              <li>Media Kit</li>
+            </ul>
+          </div>
+          <div className="footer-column">
+            <h4>Info Links</h4>
+            <ul>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Terms and Conditions</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <div className="logo"></div>
+          <div className="social-icons">
+            <span>© 2023. World Of Chemicals, India. All rights reserved.</span>
+            <a href="#"><img src="URL_TO_TWITTER_ICON" alt="Twitter" /></a>
+            <a href="#"><img src="URL_TO_YOUTUBE_ICON" alt="YouTube" /></a>
+            <a href="#"><img src="URL_TO_LINKEDIN_ICON" alt="LinkedIn" /></a>
+            <a href="#"><img src="URL_TO_FACEBOOK_ICON" alt="Facebook" /></a>
+            <a href="#"><img src="URL_TO_INSTAGRAM_ICON" alt="Instagram" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+

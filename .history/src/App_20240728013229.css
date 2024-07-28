@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  padding: 10px;
+  height : 70px;
+}
+
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    background-image: url('./logo.JPG'); /* Ensure the path is correct */
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+  }
+
+.nav-item {
+  background-color: #fff;
+  color:#000;
+  padding: 10px 20px;
+  margin: 0 5px;
+  
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: #444;
+}
+
+.search-icon {
+  margin-left: auto;
+  font-size: 2rem;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+
